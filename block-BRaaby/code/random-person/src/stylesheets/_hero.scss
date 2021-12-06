@@ -1,0 +1,15 @@
+.hero {
+  min-height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  position: relative;
+}
+.white-bg {
+  background-color: rgba(204, 238, 252, 0.808);
+  height: 50vh;
+
+}
+.black-bg {
+  background-color: rgba(41, 33, 33, 0.856);
+  height: 50vh;
+}
