@@ -1,0 +1,16 @@
+.home,.articles,.singleArticle{
+  position: absolute;
+  right: 0;
+  // top: 0;
+  display: inline-block;
+  width: 85%;
+  z-index: 1343;
+  color: black;
+  // background-color: ;
+  min-height: 100vh;
+}
+.articles {
+  li{
+    padding: 1rem 0;
+  }
+}
