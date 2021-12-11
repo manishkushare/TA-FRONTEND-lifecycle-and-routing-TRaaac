@@ -1,0 +1,24 @@
+.tags-list{
+  display: grid;
+  grid-template-columns: repeat(6,1fr) ;
+  // justify-conten÷t: center;
+  justify-items: center;
+  // grid-auto-flow: column;
+  grid-gap: 1rem;
+  li{
+    padding: 1rem 3rem;
+    border-radius: 10rem;
+    border: 1px solid black;
+    // background-color: black;
+    // color: white;
+  }
+}
+
+.active-tag{
+  background-color: white;
+  color: black;
+};
+.inactive-tag{
+  background-color: black;
+  color: white;
+}
